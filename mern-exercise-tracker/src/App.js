@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/navbar.component"
+import Navbar from "./components/navbar.component";
 import ExercisesList from "./components/exercises-list.component";
 import EditExercise from "./components/edit-exercise.component";
 import CreateExercise from "./components/create-exercise.component";
@@ -23,5 +24,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
